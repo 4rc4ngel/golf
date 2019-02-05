@@ -1,3 +1,9 @@
+body {
+    background-color: #e7f4e6;
+    z-index: -1;
+}
+
+
 .navbar {
     margin-bottom: 0px;
 }
@@ -7,4 +13,17 @@
     color: white;
     padding: 20px;
     margin-top: 20px;
+}
+
+#aboutUs {
+    background-color: #dce2ed;
+}
+
+hr {
+    width: 93%;
+    border-top: 2px solid #eee; 
+}
+
+.background-white {
+    background-color: #fff;
 }
