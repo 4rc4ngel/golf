@@ -1,8 +1,14 @@
 body {
-    background-color: #e7f4e6;
-    z-index: -1;
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 
+#image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .navbar {
     margin-bottom: 0px;
@@ -15,8 +21,9 @@ body {
     margin-top: 20px;
 }
 
-#aboutUs {
-    background-color: #dce2ed;
+.alternateColor {
+    background-color: #e9f7e4;
+    
 }
 
 hr {
@@ -26,4 +33,8 @@ hr {
 
 .background-white {
     background-color: #fff;
+}
+
+.container {
+    
 }

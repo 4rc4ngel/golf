@@ -18,7 +18,7 @@
     <![endif]-->
   </head>
   <body>
-        <nav class="navbar  navbar-inverse">
+        <nav class="navbar  navbar-inverse fixed-top">
                 <div class="container-fluid">
                   <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
@@ -28,15 +28,16 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">C.U.Next Tuesday ⛳ Golf Society</a>
+                    <a class="navbar-brand" href="#">Golf Society ⛳ </a>
                   </div>
               
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                       <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>           
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#linkToAboutUs">About Us</a></li>
+                      <li><a href="#linkToTable">Leaderboard</a></li>
+                      <li><a href="#linkToNews">Weekly News</a></li>
                     </ul>
                 </div>
         </nav>   
@@ -50,19 +51,20 @@
                                 </blockquote>
                         </div>
                     </div>
-                    <div class="container" id="aboutUs">
+                    <div class="container alternateColor" id="linkToAboutUs"> 
                         <h2>About us</h2>
                             <p>Early in March 2013 John Farrow and myself met and played a round of golf at my then club, Romford.  We had recently met at TLC golf days and discussed the idea of a regular Tuesday meet, to accompany the monthly society days.</p>
                             <p>The call was then put out on our Twitter accounts to see if there was any interest among other members of TLC that were Essex based.  A couple of weeks later we had a tee booked for 8am on a Tuesday at Mardyke Valley Golf Course.  Six people showed up, Chris Allen, Dave Clark, John Farrow, Jon Brewster, Mike Inns, and myself.  So that began our regular Tuesday meet!!!</p>
                             <p>Numbers grew quickly and soon topped the 12-16 we were originally thinking of.  We moved around a little too, Stapleford Abbotts and Woolston Manor being the other courses played, then John struck a deal with the secretary of Woolston and that became our home for the remainder of the year.</p>
                             <p>A conversation with a friend of mine who lives in Twickenham about league formats in golf resulted in us copying his society although tweaking it slightly.  So on June 18th 2013 with a merry band of 20 golfers we lined up at Woolston Manor to play the first event of our Summer Competition.  We ran until October 15th when Lee Spackman became the first ever champion of Tuesday Club.  </p>
                             <p>Our parting words were often “See you next Tuesday” and as needed a name for our group that felt as good as any.  So the CUNextTuesday’s were born!!  After that we stayed with Woolston and evolved our tournament from April to October finishing with what has become our traditional end of season night out. </p>
+                            <p>In 2016 we decided to have a change of scenery and moved to Brentwood Golf Club, this has been a great success with the course posing different problems to the ones faced at Woolston Manor.  That season we introduced a Matchplay tournament which is organised brilliantly by Dave Clark.  This has also proved popular and the first final was won by Martyn Stanley. </p>
                         </div>
                     <hr>
                     <div class="container background-white">
                         <div class="row">
                                 <div class="col-md-6">
-                                        <img src="static/maylands.jpg" alt="" style="width:100%;">
+                                        <img id="image" src="static/maylands.jpg" alt="" style="width:100%;">
                                     </div>
                             <div class="col-md-6">
                                 <h2>Where we play?</h2>
@@ -77,32 +79,50 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="container background-white">
+                    <div class="container alternateColor" id="linkToTable">
                         <div class="row">
                             <div class="col-md-6">
+                                <h3>Leader Board</h3>
                                 <table class="table">
-                                    <th>
-                                        Player
-                                    </th>
-                                    <th>
-                                        Score
-                                    </th>
-                                    <th>
-                                        Total
-                                    </th>
-                                    <th>
-                                        Handicap
-                                    </th>
-                                   
+                                    <tr>
+                                        <th>Position</th>
+                                        <th>Player</th>
+                                        <th>Score</th>
+                                        <th>Handicap</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Andy Cannell</td>
+                                        <td>0</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dave Clark</td>
+                                        <td>0</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Martyn Stanley</td>
+                                        <td>0</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Chris Allen</td>
+                                        <td>0</td>
+                                        <td>18</td>
+                                    </tr>
                                 </table>                                    
                             </div>
                             <div class="col-md-6">
-                                <h4>Matchplay</h4>
+                                <h3>Matchplay</h3>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <div class="container background-white">
+                    <div class="container background-white" id="linkToNews">
                         <div class="row">
                             <div class="col-md-8">
                                     <h2>Andy's Weekly Post</h2>
