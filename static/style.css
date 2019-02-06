@@ -1,4 +1,5 @@
 body {
+    padding-top: 20px;
     background: url(background.jpg) no-repeat center fixed;
     background-size: cover;
     font-size: 1.5rem;
@@ -15,8 +16,7 @@ body {
 }
 
 #footer {
-    background-color:#333;
-    color: white;
+    background-color:#ffe;
     padding: 20px;
     margin-top: 20px;
 }
