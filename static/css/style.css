@@ -10,6 +10,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,16 +28,15 @@ p {
   line-height: 1.4;
 }
 
+li {
+  list-style: none;
+}
 /* Utility */
 
 .text-primary {
   color: #93cb52;
   border-bottom: #93cb52 solid 2px;
   padding: 0.25rem;
-}
-
-.container {
-  padding: 0 3rem;
 }
 
 /* Navbar */
@@ -43,7 +46,8 @@ p {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 0.75rem 3rem;
+  align-items: center;
+  padding: 0.75rem 2rem;
   position: sticky;
   z-index: 1;
   top: 0;
@@ -52,10 +56,6 @@ p {
 #navbar ul {
   display: flex;
   align-items: center;
-}
-
-#navbar ul li {
-  list-style: none;
 }
 
 #navbar ul li a {
@@ -195,7 +195,6 @@ table td {
 
 section h2 {
   text-align: center;
-  font-size: 3rem;
   padding: 3rem 0;
 }
 
@@ -223,4 +222,47 @@ section h2 {
 #main-footer .footer-container i:hover {
   background: #93cb52;
   border-radius: 50%;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  #navbar {
+    display: block;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  #navbar ul {
+    display: block;
+    text-align: center;
+  }
+
+  #navbar ul li {
+    border-bottom: 1px solid #444;
+    padding: 1rem;
+  }
+
+  #showcase .showcase-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-container p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #showcase {
+    height: 50vh;
+  }
+  .weekly-container {
+    display: block;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }
