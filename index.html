@@ -4,21 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./static/css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./static/css/style.css" />
+
     <title>C.U.Next Tuesday | Golf Society</title>
   </head>
   <body>
+    <!-- Nav -->
+
     <nav id="navbar">
-      <h1 class="logo">
-        <i class="fas fa-golf-ball"></i
+      <h3>
+        <i id="brand" class="fas fa-golf-ball"></i
         ><span class="text-primary">C.U.Next</span> Tuesday
-      </h1>
+      </h3>
       <ul>
         <li><a href="#navbar">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -26,18 +29,22 @@
         <li><a href="#weekly">Weekly Update</a></li>
       </ul>
     </nav>
+
+    <!-- Header Showcase -->
+
     <header id="showcase">
-      <div class="showcase-container">
-        <h1>
-          Welcome To <span class="text-primary">C.U.Next</span> Tuesday Golf
-          Society
-        </h1>
-        <p>The only C.U.Next Tuesday's in Essex *probably.</p>
-      </div>
+      <h1>
+        Welcome To <span class="text-primary">C.U.Next</span> Tuesday Golf
+        Society
+      </h1>
+      <p>The only C.U.Next Tuesday's in Essex *probably.</p>
     </header>
+
+    <!-- Weekly News -->
+
     <section id="weekly">
       <h2><span class="text-primary">Weekly</span> News</h2>
-      <div class="weekly-container">
+      <div class="weekly-content">
         <div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
@@ -72,23 +79,23 @@
         </div>
         <div>
           <ul>
-            <a href=""><li class="weekly-list">Week 1</li></a>
-            <a href=""><li class="weekly-list">Week 2</li></a>
-            <a href=""><li class="weekly-list">Week 3</li></a>
-            <a href=""><li class="weekly-list">Week 4</li></a>
-            <a href=""><li class="weekly-list">Week 5</li></a>
-            <a href=""><li class="weekly-list">Week 6</li></a>
-            <a href=""><li class="weekly-list">Week 7</li></a>
-            <a href=""><li class="weekly-list">Week 8</li></a>
-            <a href=""><li class="weekly-list">Week 9</li></a>
-            <a href=""><li class="weekly-list">Week 10</li></a>
+            <a href=""><li>Week 1</li></a>
+            <a href=""><li>Week 2</li></a>
+            <a href=""><li>Week 3</li></a>
+            <a href=""><li>Week 4</li></a>
+            <a href=""><li>Week 5</li></a>
+            <a href=""><li>Week 6</li></a>
+            <a href=""><li>Week 7</li></a>
+            <a href=""><li>Week 8</li></a>
+            <a href=""><li>Week 9</li></a>
+            <a href=""><li>Week 10</li></a>
           </ul>
         </div>
       </div>
     </section>
 
     <section id="leaderboard">
-      <h1><span class="text-primary">Your</span> Leaderboard</h1>
+      <h2><span class="text-primary">Your</span> Leaderboard</h2>
       <div class="leaderboard-container">
         <table class="leaderboard-table">
           <tr>
@@ -236,8 +243,8 @@
       <h2><span class="text-primary">About</span> Us</h2>
       <div class="about-container">
         <div>
-          <h3>Maylands Golf Course</h3>
           <img src="static/img/maylands.jpg" alt="Mayland Club House" />
+          <h3>Our Home, Maylands Golf Club</h3>
         </div>
         <div>
           <p>
@@ -270,11 +277,15 @@
 
     <footer id="main-footer">
       <div class="footer-container">
-        <p>Copyright &copy; 2019 All Rights Reserved</p>
-        <i class="fab fa-twitter fa-2x"></i>
-        <i class="fab fa-facebook fa-2x"></i>
-        <i class="fab fa-instagram fa-2x"></i>
-        <i class="fab fa-youtube fa-2x"></i>
+        <div>
+          <p>Copyright &copy; 2019 All Rights Reserved</p>
+        </div>
+        <div>
+          <i class="fab fa-twitter fa-2x"></i>
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-youtube fa-2x"></i>
+        </div>
       </div>
     </footer>
   </body>
